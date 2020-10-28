@@ -53,6 +53,7 @@ class About(Screen):
 		AboutText += GStreamerVersion + "\n"
 
 		AboutText += _("Python version: ") + about.getPythonVersionString() + "\n"
+		AboutText += _("DeveLoped By:\tLinuxsat ") + "\n"
 
 		AboutText += _("Enigma (re)starts: %d\n") % config.misc.startCounter.value
 		AboutText += _("Enigma debug level: %d\n") % eGetEnigmaDebugLvl()
